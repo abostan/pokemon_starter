@@ -1,0 +1,65 @@
+body {
+  background: #eee;
+}
+
+@font-face {
+	font-family: pokemon;
+	src: url('font/pokemon.ttf') format('truetype');
+	font-weight: normal;
+  font-style: normal;
+}
+
+.pokemon {
+		position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 0.3s infinite;
+}
+
+.container {
+	width: 1200px;
+  height: 600px;
+  background: #F5FAFC;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin: 50px auto;
+  border: 20px white solid;
+  position: relative;
+}
+
+#bulbasaur {
+	float: left;
+	margin-top: 200px;
+	margin-left: 100px;
+
+}
+ #charmender {
+	 float: left;
+	 margin-top: 200px;
+	 margin-left: 30%;
+	 left: 10px;
+ }
+
+ #squirtle {
+	float: left;
+	margin-top: 200px;
+	margin-left: 30%;
+ }
+
+ p {
+	 font-family: pokemon;
+	 margin-top: 280px;
+ 	 margin-left: 100px;
+ }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+
+/* Standard syntax */
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 10px;}
+}
