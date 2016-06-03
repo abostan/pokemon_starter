@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #eee;
 }
 
-@font-face {
-	font-family: pokemon;
-	src: url('font/pokemon.ttf') format('truetype');
-	font-weight: normal;
-  font-style: normal;
+.credit {
+  text-align: center;
+  color: #999;
+  font-family: "Roboto Mono";
+}
+
+a {
+  color: #333;
+}
+
+h1, h2 {
+  font-family: "Roboto Mono";
+  text-align: center;
 }
 
 .pokemon {
@@ -28,25 +41,25 @@ body {
 
 #bulbasaur {
 	float: left;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: 100px;
 
 }
  #charmender {
 	 float: left;
-	 margin-top: 200px;
+	 margin-top: 100px;
 	 margin-left: 30%;
 	 left: 10px;
  }
 
  #squirtle {
 	float: left;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: 30%;
  }
 
  p {
-	 font-family: pokemon;
+	 font-family: "Roboto Mono";
 	 margin-top: 280px;
  	 margin-left: 100px;
  }
